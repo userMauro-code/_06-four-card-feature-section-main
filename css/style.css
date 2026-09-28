@@ -25,3 +25,81 @@ html,body {
     background-color: var(--color-card);
     color: var(--color-text-secondary);
 }
+
+.main {
+    padding: 3em 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.main__header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main__header > p {
+    font-weight: var(--fw-poppins-200);
+}
+
+.main__header--reliable {
+    font-size: 1.5em;
+    font-weight: var(--fw-poppins-200);
+}
+
+.main__header--title {
+    font-size: 1.5em;
+    font-weight: var(--fw-poppins-600);
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.card {
+    box-shadow: 0 15px 30px #8d8d9c;
+    border-radius: .4em;
+    text-align: start;
+    padding: 1em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.card div > h2 {
+    font-weight: var(--fw-poppins-600);
+    font-size: 1em;
+}
+
+.card div > p {
+    font-weight: var(--fw-poppins-200);
+    font-size: .8em;
+}
+
+.card > img {
+    
+    
+}
+
+.main__card > .card--supervisor {
+    border-top: 4px solid var(--color-card-supervisor);
+}
+
+.main__card > .card--team {
+    border-top: 4px solid var(--color-card-team);
+}
+
+.main__card > .card--karma {
+    border-top: 4px solid var(--color-card-karma);
+}
+
+.main__card > .card--calculator {
+    border-top: 4px solid var(--color-card-calculator);
+}
+
+
+

@@ -109,5 +109,25 @@ html,body {
 
 
 @media(min-width:768px) {
+    .main__card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .card--calculator {
+        grid-column: 3/4;
+    }
     
+    .card--karma {
+        grid-column: 2/3;
+    }
+
+    .card--supervisor {
+
+    }
 }
